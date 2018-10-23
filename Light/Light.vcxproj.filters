@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Battery.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="Crate.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Level1.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="OptionsScreen.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="Widget.cpp" />
+    <ClCompile Include="XBOXCONTROLLER.cpp" />
+    <ClCompile Include="Level2.cpp" />
+    <ClCompile Include="Level3.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="Credits.cpp" />
+    <ClCompile Include="Particles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Battery.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="Crate.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Level1.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Menus.h" />
+    <ClInclude Include="OptionsScreen.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="SplashScreen.h" />
+    <ClInclude Include="Widget.h" />
+    <ClInclude Include="XB0XCONTROLLER.h" />
+    <ClInclude Include="Level2.h" />
+    <ClInclude Include="Level3.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="Credits.h" />
+    <ClInclude Include="Particles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="ASSETS\SOUNDS\click.wav" />
+    <Media Include="ASSETS\SOUNDS\music.wav" />
+    <Media Include="ASSETS\SOUNDS\transition.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ASSETS\IMAGES\Blank.png" />
+    <Image Include="spriteSheet2.png" />
+    <Image Include="spriteSheet3.png" />
+    <Image Include="tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="ASSETS\FONTS\ariblk.ttf" />
+    <Font Include="ASSETS\FONTS\PAPYRUS.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ASSETS\SHADERS\Gui.frag" />
+    <None Include="ASSETS\SHADERS\player.frag" />
+    <None Include="ASSETS\SHADERS\SplashScreen.frag" />
+    <None Include="tile.tsx" />
+  </ItemGroup>
+</Project>
